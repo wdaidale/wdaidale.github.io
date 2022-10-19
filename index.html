@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="demo.css">
+</head>
+
+<body>
+
+    <div class="box">
+        <div class="header">
+            <img src="img/logo.png">
+            湖南信息职业技术学院选课系统
+        </div>
+
+
+        <div class="main">
+
+            <h2>选课中心</h2>
+            <div class="fm">
+                <p><span>课程范围</span>
+                    <select>
+                        <option v-for="cscope in cscope">{{cscope}}</option>
+                    </select>
+                </p>
+                <p><span>选择班级</span>
+                    <select>
+                        <option v-for="clazz in clazz">{{clazz}}</option>
+                    </select>
+                </p>
+                <p><span>选择课程</span>
+                    <select>
+                        <option v-for="course in course">{{course}}</option>
+                    </select>
+                </p>
+                <p><span>选择课程老师</span>
+                    <select>
+                        <option v-for="teacher in teacher">{{teacher}}</option>
+                    </select>
+                </p>
+                <p class="btn"> <button @click="sel">提交</button></p>
+            </div>
+        </div>
+        <div class="foot">
+            <h3>网页美化与布局</h3>
+            <p>介绍：</p>
+            <span>本课程是面向计算机专业的一门专业必修课,以HTML5、CSS3、JavaScript、Jquery以及Bootstrap框架的基础知识和实际应用技术为主线,将传统技术与新技术充分融合,按照Web前端工程师岗位要求促进学生利用HTML5、CSS3、JavaScript、jQuery以及...</span>
+            <img src="img/1.png">
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="vue.js"></script>
+    <script type="text/javascript" src="vueflex.js"></script>
+   
+</body>
+
+</html>
