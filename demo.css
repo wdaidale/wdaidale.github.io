@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #2EA9F5;
+    color:#FFF;
+}
+.header img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.main,.foot{
+    width: 90%;
+    margin: 30px auto;
+}
+.main h2{
+    text-align: center;
+    color: #2F1010;
+    font-size: 20px;
+}
+.fm{
+    border: 1px solid #ccc;
+    border-radius: 10x;
+    box-shadow: 0 0 5px #CCC;
+    margin: 15px 0;
+}
+.fm p{
+    margin: 10px 0;
+    padding: 0 15px;
+}
+.fm p span{
+    width: 35%;
+    display:inline-block;
+    text-align: right;
+}
+.fm p select{
+    width: 50%;
+    margin-left: 15px;
+    border-radius: 5px;
+    height: 25px;
+}
+.main button{
+    background-color: #2EA9F5;
+    color:#ccc;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+.main .btn {
+    text-align: center;
+}
+.foot h3{
+    text-align: center;
+    color: #2F1010;
+    font-size: 15px;
+}
+.foot img{
+   margin: 0 auto;
+   padding: 20px;
+}
